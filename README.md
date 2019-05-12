@@ -1,6 +1,8 @@
 This is a Java based Completely FUD backdoor reverse shell, for Windows XP,Vista,7,8.x,10 , coded entirely in java.
 
-This project was developed using openjdk version "11.0.3".
+This project was developed using openjdk version "11.0.3", but the Libraries used in this project dates back from JDK 1.0 release, thus, this will work on any version of Java. 
+NB: the victim should have either the same version of Java or a few notches under, installed on the system, to avoid unwanted JNI errors.
+This ideally should not be an issue as most users update their JRE runtime , either manually or is set to Auto update (which is most common).
 
 To compile the file , simply run javac connectback.java.
 This will create the .class file.
@@ -19,5 +21,7 @@ Port the .JAR file to the windows machine and execute it either by using java -j
 Cheers
 
 #Captain_Nemo
+
+connectback
 
 https://www.youtube.com/watch?v=BaPRKLP9B_4
